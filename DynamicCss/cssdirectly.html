@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Change CSS Directly</title>
+    <script>
+      function changecolour() {
+        document.getElementById("boxtag").style.backgroundColor = "red";
+      }
+    </script>
+    <style>
+      #boxtag {
+        width: 200px;
+        padding: 20px;
+        background: lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="text-align: center;">
+      <h1>Change CSS Directly</h1>
+      <div>
+        <div id="boxtag">Dynamic css</div>
+        <button style="text-align: center;" id="btnboxtag" onclick="changecolour()">change colour</button>
+      </div>
+    </div>
+  </body>
+</html>
