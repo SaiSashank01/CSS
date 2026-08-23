@@ -1,11 +1,8 @@
-
-.divi{
-    margin:0 auto;
+.divi {
+    margin: 0 auto;
     flex: 2 100px;
     text-align: center;
 }
-
-
 
 .sdr {
     display: inline;
@@ -13,20 +10,19 @@
     height: 300px;
     border: 2px solid black;
     border-radius: 20px;
-    
 }
+
 .sdr1 {
     display: inline;
-     width: 500px;
+    width: 500px;
     height: 300px;
     border: 2px solid black;
     border-radius: 20px;
-
 }
 
 .pg {
-     border: 2px solid black;
+    border: 2px solid black;
     border-radius: 20px;
     padding-left: 15px;
-    color:rgb(136, 185, 185)
+    color: rgb(136, 185, 185)
 }
